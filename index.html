@@ -510,9 +510,9 @@
                         <div class="info-card__icon">📞</div>
                         <h3 class="info-card__title">Contact</h3>
                         <p class="info-card__text">
-                            Tél : +243 XXX XXX XXX<br>
-                            Email : info@visitgoma-uago.cd<br>
-                            <em>(Coordonnées à confirmer)</em>
+                            Tél : <a href="tel:+243994352919">+243 994 352 919</a><br>
+                            Email : <a href="mailto:info@uago.ac.cd">info@uago.ac.cd</a><br>
+                            Web : <a href="https://uago.ac.cd/" target="_blank" rel="noopener noreferrer">uago.ac.cd</a>
                         </p>
                     </div>
                     <div class="info-card animate-on-scroll">
@@ -527,62 +527,66 @@
         <!-- ===== FORMULAIRE DE CONTACT ===== -->
         <section class="section section--contact" id="contact">
             <div class="container">
-                <div class="contact-grid">
+                <div class="section__header">
+                    <span class="section__tag">Contact</span>
+                    <h2 class="section__title">Contactez-nous</h2>
+                    <p class="section__subtitle">Vous avez des questions ou souhaitez planifier une visite ? N'hésitez pas à nous contacter.</p>
+                </div>
+                <div class="contact-top-grid">
                     <div class="contact__info animate-on-scroll">
-                        <span class="section__tag">Contact</span>
-                        <h2 class="section__title">Contactez-nous</h2>
-                        <p class="contact__text">
-                            Vous avez des questions ou souhaitez planifier une visite ?
-                            N'hésitez pas à nous contacter.
-                        </p>
-                        <div class="contact__details">
-                            <div class="contact__detail">
-                                <span class="contact__detail-icon">📍</span>
-                                <span>Goma, Nord-Kivu, RDC</span>
-                            </div>
-                            <div class="contact__detail">
-                                <span class="contact__detail-icon">📞</span>
-                                <span>+243 XXX XXX XXX</span>
-                            </div>
-                            <div class="contact__detail">
-                                <span class="contact__detail-icon">✉️</span>
-                                <span>info@visitgoma-uago.cd</span>
-                            </div>
+                        <div class="contact__info-card">
+                            <div class="contact__info-card-icon">📍</div>
+                            <h3 class="contact__info-card-title">Adresse</h3>
+                            <p class="contact__info-card-text">Goma, Nord-Kivu, RDC</p>
                         </div>
-                        <div class="contact__social">
-                            <a href="#" class="social-link" aria-label="Facebook">f</a>
-                            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
-                            <a href="#" class="social-link" aria-label="Instagram">ig</a>
-                            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+                        <div class="contact__info-card">
+                            <div class="contact__info-card-icon">📞</div>
+                            <h3 class="contact__info-card-title">Téléphone</h3>
+                            <a href="tel:+243994352919" class="contact__info-card-text contact__info-card-link">+243 994 352 919</a>
+                        </div>
+                        <div class="contact__info-card">
+                            <div class="contact__info-card-icon">✉️</div>
+                            <h3 class="contact__info-card-title">Email</h3>
+                            <a href="mailto:info@uago.ac.cd" class="contact__info-card-text contact__info-card-link">info@uago.ac.cd</a>
+                        </div>
+                        <div class="contact__info-card">
+                            <div class="contact__info-card-icon">🌐</div>
+                            <h3 class="contact__info-card-title">Site web</h3>
+                            <a href="https://uago.ac.cd/" target="_blank" rel="noopener noreferrer" class="contact__info-card-text contact__info-card-link">uago.ac.cd</a>
                         </div>
                     </div>
                     <div class="contact__form-wrap animate-on-scroll">
+                        <h3 class="contact__form-title">Envoyez-nous un message</h3>
                         <form class="contact-form" id="contactForm" novalidate>
-                            <div class="form-group">
-                                <label for="formName" class="form-label">Nom complet <span class="required">*</span></label>
-                                <input type="text" id="formName" name="name" class="form-input" placeholder="Votre nom complet" required>
-                                <span class="form-error" id="nameError"></span>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="formName" class="form-label">Nom complet <span class="required">*</span></label>
+                                    <input type="text" id="formName" name="name" class="form-input" placeholder="Votre nom complet" required>
+                                    <span class="form-error" id="nameError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="formEmail" class="form-label">Email <span class="required">*</span></label>
+                                    <input type="email" id="formEmail" name="email" class="form-input" placeholder="votre@email.com" required>
+                                    <span class="form-error" id="emailError"></span>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="formEmail" class="form-label">Email <span class="required">*</span></label>
-                                <input type="email" id="formEmail" name="email" class="form-input" placeholder="votre@email.com" required>
-                                <span class="form-error" id="emailError"></span>
-                            </div>
-                            <div class="form-group">
-                                <label for="formPhone" class="form-label">Téléphone</label>
-                                <input type="tel" id="formPhone" name="phone" class="form-input" placeholder="+243 XXX XXX XXX">
-                            </div>
-                            <div class="form-group">
-                                <label for="formSubject" class="form-label">Sujet <span class="required">*</span></label>
-                                <select id="formSubject" name="subject" class="form-input" required>
-                                    <option value="">Sélectionnez un sujet</option>
-                                    <option value="visite">Planifier une visite</option>
-                                    <option value="info">Demande d'information</option>
-                                    <option value="admission">Admission UAGO</option>
-                                    <option value="partenariat">Partenariat</option>
-                                    <option value="autre">Autre</option>
-                                </select>
-                                <span class="form-error" id="subjectError"></span>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="formPhone" class="form-label">Téléphone</label>
+                                    <input type="tel" id="formPhone" name="phone" class="form-input" placeholder="+243 XXX XXX XXX">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formSubject" class="form-label">Sujet <span class="required">*</span></label>
+                                    <select id="formSubject" name="subject" class="form-input" required>
+                                        <option value="">Sélectionnez un sujet</option>
+                                        <option value="visite">Planifier une visite</option>
+                                        <option value="info">Demande d'information</option>
+                                        <option value="admission">Admission UAGO</option>
+                                        <option value="partenariat">Partenariat</option>
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                    <span class="form-error" id="subjectError"></span>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="formMessage" class="form-label">Message <span class="required">*</span></label>
@@ -590,7 +594,7 @@
                                 <span class="form-error" id="messageError"></span>
                             </div>
                             <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
-                                <span class="btn__text">Envoyer</span>
+                                <span class="btn__text">Envoyer le message</span>
                                 <span class="btn__spinner" aria-hidden="true"></span>
                             </button>
                             <div class="form-success" id="formSuccess">
@@ -598,6 +602,21 @@
                                 <p>Merci ! Votre message a été envoyé avec succès. Nous vous répondrons bientôt.</p>
                             </div>
                         </form>
+                    </div>
+                </div>
+                <div class="contact-map animate-on-scroll">
+                    <div class="contact-map__header">
+                        <h3 class="contact-map__title">📍 Notre emplacement</h3>
+                        <a href="https://www.google.com/maps/place/Universit%C3%A9+Adventiste+de+Goma/@-1.6784,29.2214,15z" target="_blank" rel="noopener noreferrer" class="contact-map__directions">Ouvrir dans Google Maps →</a>
+                    </div>
+                    <div class="contact-map__wrapper">
+                        <iframe 
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=29.215%2C-1.683%2C29.228%2C-1.674&layer=mapnik&marker=-1.6784%2C29.2214" 
+                            class="contact-map__iframe"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Carte de l'UAGO - Goma, RDC"
+                        ></iframe>
                     </div>
                 </div>
             </div>
@@ -647,8 +666,9 @@
                     <h4 class="footer__heading">Contact</h4>
                     <ul>
                         <li>📍 Goma, Nord-Kivu, RDC</li>
-                        <li>📞 +243 XXX XXX XXX</li>
-                        <li>✉️ info@visitgoma-uago.cd</li>
+                        <li>📞 <a href="tel:+243994352919">+243 994 352 919</a></li>
+                        <li>✉️ <a href="mailto:info@uago.ac.cd">info@uago.ac.cd</a></li>
+                        <li>🌐 <a href="https://uago.ac.cd/" target="_blank" rel="noopener noreferrer">uago.ac.cd</a></li>
                     </ul>
                     <div class="footer__social">
                         <a href="#" class="social-link" aria-label="Facebook">f</a>
