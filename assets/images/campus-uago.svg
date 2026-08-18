@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="campus-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a5276"/>
+      <stop offset="100%" stop-color="#2e86c1"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#campus-bg)"/>
+  
+  <!-- Main building -->
+  <rect x="250" y="180" width="300" height="250" fill="#ecf0f1"/>
+  <rect x="260" y="190" width="280" height="230" fill="#bdc3c7"/>
+  
+  <!-- Windows -->
+  <rect x="280" y="210" width="40" height="50" fill="#3498db"/>
+  <rect x="340" y="210" width="40" height="50" fill="#3498db"/>
+  <rect x="420" y="210" width="40" height="50" fill="#3498db"/>
+  <rect x="480" y="210" width="40" height="50" fill="#3498db"/>
+  
+  <rect x="280" y="290" width="40" height="50" fill="#3498db"/>
+  <rect x="340" y="290" width="40" height="50" fill="#3498db"/>
+  <rect x="420" y="290" width="40" height="50" fill="#3498db"/>
+  <rect x="480" y="290" width="40" height="50" fill="#3498db"/>
+  
+  <!-- Door -->
+  <rect x="370" y="350" width="60" height="80" fill="#2c3e50"/>
+  <circle cx="420" cy="390" r="5" fill="#f1c40f"/>
+  
+  <!-- Roof -->
+  <polygon points="230,180 400,100 570,180" fill="#c0392b"/>
+  
+  <!-- Trees -->
+  <rect x="100" y="320" width="15" height="110" fill="#5D4037"/>
+  <circle cx="107" cy="280" r="40" fill="#27ae60"/>
+  
+  <rect x="680" y="300" width="15" height="130" fill="#5D4037"/>
+  <circle cx="687" cy="260" r="45" fill="#27ae60"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="430" width="800" height="70" fill="#27ae60"/>
+  
+  <!-- Flag -->
+  <line x1="400" y1="100" x2="400" y2="50" stroke="#7f8c8d" stroke-width="3"/>
+  <rect x="400" y="50" width="30" height="20" fill="#3498db"/>
+  
+  <text x="400" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">🏫 Campus UAGO</text>
+</svg>

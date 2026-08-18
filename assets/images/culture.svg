@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="culture-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a6b3c"/>
+      <stop offset="100%" stop-color="#f39c12"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#culture-bg)"/>
+  
+  <!-- Masks -->
+  <ellipse cx="250" cy="250" rx="80" ry="100" fill="#8B4513"/>
+  <ellipse cx="250" cy="250" rx="60" ry="80" fill="#D2691E"/>
+  <circle cx="230" cy="220" r="15" fill="#1a1a2e"/>
+  <circle cx="270" cy="220" r="15" fill="#1a1a2e"/>
+  <ellipse cx="250" cy="270" rx="20" ry="10" fill="#1a1a2e"/>
+  <line x1="220" y1="180" x2="280" y2="180" stroke="#1a1a2e" stroke-width="4"/>
+  
+  <!-- Drums -->
+  <ellipse cx="550" cy="350" rx="50" ry="20" fill="#8B4513"/>
+  <rect x="500" y="280" width="100" height="70" fill="#A0522D"/>
+  <ellipse cx="550" cy="280" rx="50" ry="20" fill="#D2691E"/>
+  <line x1="510" y1="290" x2="510" y2="350" stroke="#8B4513" stroke-width="2"/>
+  <line x1="530" y1="285" x2="530" y2="350" stroke="#8B4513" stroke-width="2"/>
+  <line x1="550" y1="280" x2="550" y2="350" stroke="#8B4513" stroke-width="2"/>
+  <line x1="570" y1="285" x2="570" y2="350" stroke="#8B4513" stroke-width="2"/>
+  <line x1="590" y1="290" x2="590" y2="350" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Decorative patterns -->
+  <circle cx="400" cy="150" r="30" fill="none" stroke="#f1c40f" stroke-width="3"/>
+  <circle cx="400" cy="150" r="20" fill="none" stroke="#f1c40f" stroke-width="2"/>
+  <circle cx="400" cy="150" r="10" fill="#f1c40f"/>
+  
+  <text x="400" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">🎭 Culture Locale</text>
+</svg>

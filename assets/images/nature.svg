@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="nature-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e8449"/>
+      <stop offset="100%" stop-color="#52be80"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#nature-bg)"/>
+  
+  <!-- Trees -->
+  <rect x="100" y="300" width="20" height="150" fill="#5D4037"/>
+  <circle cx="110" cy="250" r="60" fill="#2E7D32"/>
+  <circle cx="80" cy="280" r="40" fill="#388E3C"/>
+  <circle cx="140" cy="270" r="45" fill="#1B5E20"/>
+  
+  <rect x="300" y="280" width="25" height="170" fill="#5D4037"/>
+  <circle cx="312" cy="220" r="70" fill="#2E7D32"/>
+  <circle cx="275" cy="260" r="45" fill="#388E3C"/>
+  <circle cx="350" cy="250" r="50" fill="#1B5E20"/>
+  
+  <rect x="550" y="290" width="22" height="160" fill="#5D4037"/>
+  <circle cx="561" cy="230" r="65" fill="#2E7D32"/>
+  <circle cx="530" cy="265" r="42" fill="#388E3C"/>
+  <circle cx="595" cy="255" r="48" fill="#1B5E20"/>
+  
+  <!-- Flowers -->
+  <circle cx="200" cy="420" r="8" fill="#E91E63"/>
+  <circle cx="220" cy="430" r="6" fill="#FF5722"/>
+  <circle cx="450" cy="410" r="7" fill="#E91E63"/>
+  <circle cx="650" cy="425" r="9" fill="#FF5722"/>
+  
+  <!-- Butterfly -->
+  <ellipse cx="400" cy="150" rx="15" ry="10" fill="#FFEB3B" transform="rotate(-30 400 150)"/>
+  <ellipse cx="400" cy="150" rx="15" ry="10" fill="#FFEB3B" transform="rotate(30 400 150)"/>
+  <rect x="399" y="140" width="2" height="20" fill="#333"/>
+  
+  <text x="400" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">🌿 Espaces Naturels</text>
+</svg>

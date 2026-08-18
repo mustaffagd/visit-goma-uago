@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="lake-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a6b3c"/>
+      <stop offset="100%" stop-color="#2d9b5e"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#lake-sky)"/>
+  
+  <!-- Mountains around lake -->
+  <path d="M0,300 L150,150 L300,200 L500,100 L700,180 L800,120 L800,500 L0,500 Z" fill="#1a4a2a" opacity="0.8"/>
+  
+  <!-- Lake water -->
+  <path d="M0,320 Q200,300 400,310 Q600,320 800,305 L800,500 L0,500 Z" fill="#1a7a8a"/>
+  <path d="M0,360 Q200,350 400,355 Q600,360 800,350 L800,500 L0,500 Z" fill="#2ea5b8" opacity="0.7"/>
+  <path d="M0,400 Q200,395 400,398 Q600,400 800,393 L800,500 L0,500 Z" fill="#3bb5c8" opacity="0.5"/>
+  
+  <!-- Boat -->
+  <path d="M350,380 L450,380 L430,395 L370,395 Z" fill="#8B4513"/>
+  <line x1="400" y1="380" x2="400" y2="350" stroke="#5a3a1a" stroke-width="2"/>
+  <path d="M400,350 L430,370 L400,370 Z" fill="white" opacity="0.9"/>
+  
+  <text x="400" y="250" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">🌊 Lac Kivu</text>
+</svg>
